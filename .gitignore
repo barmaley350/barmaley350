@@ -1,0 +1,41 @@
+# Байт‑код и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения (выбери то, что используешь, или оставь все)
+venv/
+.venv/
+env/
+virtualenv/
+ENV/
+
+# Файлы зависимостей (если управляешь ими отдельно)
+requirements.txt
+# но чаще requirements.txt хотят хранить — тогда эту строку удали
+
+# Артефакты сборки и дистрибутивы
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Переменные окружения и секреты
+.env
+.secret
+secrets.json
+
+# ОС и прочее
+.DS_Store
+Thumbs.db
+
+# Gigacode
+.gigacode
