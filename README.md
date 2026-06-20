@@ -29,5 +29,8 @@ Some text
 ![Static Badge](https://img.shields.io/badge/docker-abcdef?style=for-the-badge&logo=docker)
 ![Static Badge](https://img.shields.io/badge/postgresql-abcdef?style=for-the-badge&logo=postgresql)
 ![Static Badge](https://img.shields.io/badge/numpy-abcdef?style=for-the-badge&logo=numpy)
-![Static Badge](https://img.shields.io/badge/clickhouse-abcdef?style=for-the-badge&logo=clickhouse) 
+![Static Badge](https://img.shields.io/badge/clickhouse-abcdef?style=for-the-badge&logo=clickhouse)
+![Static Badge](https://img.shields.io/badge/sqlalchemy-abcdef?style=for-the-badge&logo=sqlalchemy)
+![Static Badge](https://img.shields.io/badge/pytest-abcdef?style=for-the-badge&logo=pytest)
+![Static Badge](https://img.shields.io/badge/pydantic-abcdef?style=for-the-badge&logo=pydantic) 
 
