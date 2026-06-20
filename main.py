@@ -61,6 +61,7 @@ def create_steck_links(steck_md: Path, output_md: Path) -> None:
         "Nuxt": {"name": "NuxtJS", "logo": "nuxt"},
         "Git": {"name": "Git", "logo": "git"},
         "Celery": {"name": "Celery", "logo": "celery"},
+        "jupyter": {"name": "Jupyter", "logo": "jupyter"},
     }
     with steck_md.open("r", encoding="utf-8") as input_file:
         content = input_file.read()
