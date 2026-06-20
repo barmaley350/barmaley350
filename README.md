@@ -18,6 +18,8 @@
 ![Docker](https://img.shields.io/badge/docker-abcdef?style=for-the-badge&logo=docker)
 
 
+<br>
+
 ![Python](https://img.shields.io/badge/python-abcdef?style=flat&logo=python&color=white)
 ![Fastapi](https://img.shields.io/badge/fastapi-abcdef?style=flat&logo=fastapi&color=white)
 ![Docker](https://img.shields.io/badge/docker-abcdef?style=flat&logo=docker&color=white) 
