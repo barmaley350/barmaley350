@@ -13,10 +13,9 @@
 </a>
 
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-4.2-green?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-orange?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/)
-[![Docker](https://img.shields.io/badge/Docker-24-blue?style=for-the-badge&logo=docker)](https://www.docker.com/)
+![Python](https://img.shields.io/badge/python-abcdef?style=for-the-badge&logo=python)
+![Fastapi](https://img.shields.io/badge/fastapi-abcdef?style=for-the-badge&logo=fastapi)
+![Docker](https://img.shields.io/badge/docker-abcdef?style=for-the-badge&logo=docker)
  
 
 # Несколько слов обо мне
