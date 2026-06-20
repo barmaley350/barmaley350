@@ -27,6 +27,7 @@ Some text
 ![Static Badge](https://img.shields.io/badge/pandas-abcdef?style=flat&logo=pandas&color=white)
 ![Static Badge](https://img.shields.io/badge/fastapi-abcdef?style=flat&logo=fastapi&color=white)
 ![Static Badge](https://img.shields.io/badge/docker-abcdef?style=flat&logo=docker&color=white)
-![Static Badge](https://img.shields.io/badge/postgesql-abcdef?style=flat&logo=postgesql&color=white)
-![Static Badge](https://img.shields.io/badge/numpy-abcdef?style=flat&logo=numpy&color=white) 
+![Static Badge](https://img.shields.io/badge/postgresql-abcdef?style=flat&logo=postgresql&color=white)
+![Static Badge](https://img.shields.io/badge/numpy-abcdef?style=flat&logo=numpy&color=white)
+![Static Badge](https://img.shields.io/badge/clickhouse-abcdef?style=flat&logo=clickhouse&color=white) 
 
