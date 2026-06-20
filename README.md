@@ -16,7 +16,11 @@
 ![Python](https://img.shields.io/badge/python-abcdef?style=for-the-badge&logo=python)
 ![Fastapi](https://img.shields.io/badge/fastapi-abcdef?style=for-the-badge&logo=fastapi)
 ![Docker](https://img.shields.io/badge/docker-abcdef?style=for-the-badge&logo=docker)
- 
+
+
+![Python](https://img.shields.io/badge/python-abcdef?style=flat&logo=python&color=white)
+![Fastapi](https://img.shields.io/badge/fastapi-abcdef?style=flat&logo=fastapi&color=white)
+![Docker](https://img.shields.io/badge/docker-abcdef?style=flat&logo=docker&color=white) 
 
 # Несколько слов обо мне
 
