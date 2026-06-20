@@ -26,5 +26,6 @@ Some text
 ![Docker](https://img.shields.io/badge/docker-abcdef?style=flat&logo=docker&color=white)
 ![Static Badge](https://img.shields.io/badge/postgresql-abcdef?style=flat&logo=postgresql&color=white)
 ![Static Badge](https://img.shields.io/badge/clickhouse-abcdef?style=flat&logo=clickhouse&color=white)
+![Static Badge](https://img.shields.io/badge/pandas-abcdef?style=flat&logo=pandas&color=white)
  
 
