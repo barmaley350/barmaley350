@@ -20,5 +20,6 @@
 ![Static Badge](https://img.shields.io/badge/Apache_Superset-abcdef?style=for-the-badge&logo=apache-superset)
 ![Static Badge](https://img.shields.io/badge/Django-abcdef?style=for-the-badge&logo=django)
 ![Static Badge](https://img.shields.io/badge/NuxtJS-abcdef?style=for-the-badge&logo=nuxt)
-![Static Badge](https://img.shields.io/badge/Git-abcdef?style=for-the-badge&logo=git) 
+![Static Badge](https://img.shields.io/badge/Git-abcdef?style=for-the-badge&logo=git)
+![Static Badge](https://img.shields.io/badge/Celery-abcdef?style=for-the-badge&logo=celery) 
 
