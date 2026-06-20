@@ -33,6 +33,6 @@ Some text
 ![Static Badge](https://img.shields.io/badge/sqlalchemy-abcdef?style=for-the-badge&logo=sqlalchemy)
 ![Static Badge](https://img.shields.io/badge/pytest-abcdef?style=for-the-badge&logo=pytest)
 ![Static Badge](https://img.shields.io/badge/pydantic-abcdef?style=for-the-badge&logo=pydantic)
-![Static Badge](https://img.shields.io/badge/Apache-Airflow-abcdef?style=for-the-badge&logo=Apache-Airflow)
-![Static Badge](https://img.shields.io/badge/Apache-Superset-abcdef?style=for-the-badge&logo=Apache-Superset) 
+![Static Badge](https://img.shields.io/badge/Apache_Airflow-abcdef?style=for-the-badge&logo=Apache-Airflow)
+![Static Badge](https://img.shields.io/badge/Apache_Superset-abcdef?style=for-the-badge&logo=Apache-Superset) 
 
