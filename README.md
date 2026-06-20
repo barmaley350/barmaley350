@@ -1,6 +1,9 @@
 # Контакты
 
-[![Static Badge](https://img.shields.io/badge/Stepik-755-brightgreen?style=for-the-badge)](https://stepik.org/users/731352815/profile)
+<a href="https://stepik.org/users/731352815/profile" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Stepik-755-brightgreen?style=for-the-badge" alt="Static Badge">
+</a>
+
 
 
 
