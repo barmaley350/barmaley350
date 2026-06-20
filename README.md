@@ -8,7 +8,9 @@
   <img src="https://img.shields.io/badge/Kaggle-abcdef?style=for-the-badge" alt="Kaggle">
 </a>
 
-
+<a href="https://stepik.org/users/731352815/profile" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Telegram-abcdef?style=for-the-badge" alt="Telegram">
+</a>
 
 
  
