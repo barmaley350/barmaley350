@@ -4,6 +4,7 @@ from pathlib import Path
 
 
 def prepare_stack(d: dict) -> dict:
+    """Prepare stack."""
     dn = {}
     for k, v in d.items():
         dn.setdefault(v["type"], []).append(k)
@@ -164,11 +165,13 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
         output_file.write(f"{content} \n\n")
 
 
-def create_empty_md(output_md: Path):
+def create_empty_md(output_md: Path) -> None:
+    """Create an empty markdown file."""
     output_md.write_text("", encoding="utf-8")
 
 
-def append_md(file_path: Path, output_md: Path):
+def append_md(file_path: Path, output_md: Path) -> None:
+    """Append content from a file to the output markdown file."""
     with file_path.open("r", encoding="utf-8") as input_file:
         content = input_file.read()
 
@@ -178,7 +181,7 @@ def append_md(file_path: Path, output_md: Path):
 
 if __name__ == "__main__":
     resources = {
-        # "contact": Path(__file__).parent / "md/CONTACTS.md",
+        # "contact": Path(__file__).parent / "md/CONTACTS.md",  # noqa: ERA001
         "about": Path(__file__).parent / "md/ABOUT.md",
         "stack": Path(__file__).parent / "md/STACK.md",
     }
