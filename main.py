@@ -53,7 +53,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "name": "PostgreSQL",
             "logo": "postgresql",
             "category": "Data & Analytics",
-            "type": "Data Analysis",
+            "type": "Database",
         },
         "numpy": {
             "name": "NumPy",
@@ -65,7 +65,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "name": "ClickHouse",
             "logo": "clickhouse",
             "category": "Data & Analytics",
-            "type": "Data Analysis",
+            "type": "Database",
         },
         "sqlalchemy": {
             "name": "SQLAlchemy",
