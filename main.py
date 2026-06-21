@@ -6,7 +6,7 @@ from pathlib import Path
 def prepare_stack(d: dict) -> dict:
     dn = {}
     for k, v in d.items():
-        dn.setdefault(v["category"], []).append(k)
+        dn.setdefault(v["type"], []).append(k)
     return dn
 
 
@@ -28,116 +28,116 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
         "python": {
             "name": "Python",
             "logo": "python",
-            "type": "programming language",
             "category": "Development & Engineering",
+            "type": "Backend",
         },
         "pandas": {
             "name": "Pandas",
             "logo": "pandas",
-            "type": "data analysis",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "fastapi": {
             "name": "FastAPI",
             "logo": "fastapi",
-            "type": "web framework",
             "category": "Development & Engineering",
+            "type": "Backend",
         },
         "docker": {
             "name": "Docker",
             "logo": "docker",
-            "type": "containerization",
             "category": "Development & Engineering",
+            "type": "Supporting Tools",
         },
         "postgresql": {
             "name": "PostgreSQL",
             "logo": "postgresql",
-            "type": "database",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "numpy": {
             "name": "NumPy",
             "logo": "numpy",
-            "type": "scientific computing",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "clickhouse": {
             "name": "ClickHouse",
             "logo": "clickhouse",
-            "type": "database",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "sqlalchemy": {
             "name": "SQLAlchemy",
             "logo": "sqlalchemy",
-            "type": "ORM",
             "category": "Supporting Tools",
+            "type": "Supporting Tools",
         },
         "pytest": {
             "name": "Pytest",
             "logo": "pytest",
-            "type": "testing",
             "category": "Testing & Quality",
+            "type": "Testing & Quality",
         },
         "pydantic": {
             "name": "Pydantic",
             "logo": "pydantic",
-            "type": "data validation",
             "category": "Supporting Tools",
+            "type": "Supporting Tools",
         },
         "Apache-Airflow": {
             "name": "Apache_Airflow",
             "logo": "apache-airflow",
-            "type": "workflow orchestration",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "Apache-Superset": {
             "name": "Apache_Superset",
             "logo": "apache-superset",
-            "type": "data visualization",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "Matplotlib": {
             "name": "Matplotlib",
             "logo": "matplotlib",
-            "type": "data visualization",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "Seaborn": {
             "name": "Seaborn",
             "logo": "seaborn",
-            "type": "data visualization",
             "category": "Data & Analytics",
+            "type": "Data Analysis",
         },
         "django": {
             "name": "Django",
             "logo": "django",
-            "type": "web framework",
             "category": "Development & Engineering",
+            "type": "Backend",
         },
         "Nuxt": {
             "name": "NuxtJS",
             "logo": "nuxt",
-            "type": "frontend framework",
             "category": "Development & Engineering",
+            "type": "Frontend",
         },
         "Git": {
             "name": "Git",
             "logo": "git",
-            "type": "version control",
             "category": "Development & Engineering",
+            "type": "Supporting Tools",
         },
         "Celery": {
             "name": "Celery",
             "logo": "celery",
-            "type": "task queue",
             "category": "Supporting Tools",
+            "type": "Supporting Tools",
         },
         "jupyter": {
             "name": "Jupyter",
             "logo": "jupyter",
-            "type": "interactive computing",
             "category": "Supporting Tools",
+            "type": "Supporting Tools",
         },
     }
 
