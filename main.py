@@ -25,61 +25,61 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
     https://shields.io/badges/static-badge
     """
     stack = {
-        "python": {
+        "Python": {
             "name": "Python",
             "logo": "python",
             "category": "Development & Engineering",
             "type": "Backend",
         },
-        "pandas": {
+        "Pandas": {
             "name": "Pandas",
             "logo": "pandas",
             "category": "Data & Analytics",
             "type": "Data Analysis",
         },
-        "fastapi": {
+        "Fastapi": {
             "name": "FastAPI",
             "logo": "fastapi",
             "category": "Development & Engineering",
             "type": "Backend",
         },
-        "docker": {
+        "Docker": {
             "name": "Docker",
             "logo": "docker",
             "category": "Development & Engineering",
             "type": "Supporting Tools",
         },
-        "postgresql": {
+        "Postgresql": {
             "name": "PostgreSQL",
             "logo": "postgresql",
             "category": "Data & Analytics",
             "type": "Database",
         },
-        "numpy": {
+        "Numpy": {
             "name": "NumPy",
             "logo": "numpy",
             "category": "Data & Analytics",
             "type": "Data Analysis",
         },
-        "clickhouse": {
+        "Clickhouse": {
             "name": "ClickHouse",
             "logo": "clickhouse",
             "category": "Data & Analytics",
             "type": "Database",
         },
-        "sqlalchemy": {
+        "Sqlalchemy": {
             "name": "SQLAlchemy",
             "logo": "sqlalchemy",
             "category": "Supporting Tools",
             "type": "Supporting Tools",
         },
-        "pytest": {
+        "Pytest": {
             "name": "Pytest",
             "logo": "pytest",
             "category": "Testing & Quality",
             "type": "Testing & Quality",
         },
-        "pydantic": {
+        "Pydantic": {
             "name": "Pydantic",
             "logo": "pydantic",
             "category": "Supporting Tools",
@@ -109,9 +109,15 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "category": "Data & Analytics",
             "type": "Data Analysis",
         },
-        "django": {
+        "Django": {
             "name": "Django",
             "logo": "django",
+            "category": "Development & Engineering",
+            "type": "Backend",
+        },
+        "Django REST Framework (DRF)": {
+            "name": "Django_REST_Framework_(DRF)",
+            "logo": "Django_REST_Framework_(DRF)",
             "category": "Development & Engineering",
             "type": "Backend",
         },
@@ -133,7 +139,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "category": "Supporting Tools",
             "type": "Supporting Tools",
         },
-        "jupyter": {
+        "Jupyter": {
             "name": "Jupyter",
             "logo": "jupyter",
             "category": "Supporting Tools",
@@ -152,6 +158,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             name = stack[item]["name"]
             logo = stack[item]["logo"]
             url = f"![Static Badge](https://img.shields.io/badge/{name}-abcdef?style=for-the-badge&logo={logo})"
+            url = f"[{item}](https://img.shields.io/badge/{name}-white?logo={logo})"
             content += f"\n{url}"
 
     with output_md.open("a", encoding="utf-8") as output_file:
