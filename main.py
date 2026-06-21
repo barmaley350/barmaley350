@@ -86,13 +86,13 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "category": "Supporting Tools",
         },
         "Apache-Airflow": {
-            "name": "Apache Airflow",
+            "name": "Apache_Airflow",
             "logo": "apache-airflow",
             "type": "workflow orchestration",
             "category": "Data & Analytics",
         },
         "Apache-Superset": {
-            "name": "Apache Superset",
+            "name": "Apache_Superset",
             "logo": "apache-superset",
             "type": "data visualization",
             "category": "Data & Analytics",

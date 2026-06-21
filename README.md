@@ -18,8 +18,8 @@
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-abcdef?style=for-the-badge&logo=postgresql)
 ![Static Badge](https://img.shields.io/badge/NumPy-abcdef?style=for-the-badge&logo=numpy)
 ![Static Badge](https://img.shields.io/badge/ClickHouse-abcdef?style=for-the-badge&logo=clickhouse)
-![Static Badge](https://img.shields.io/badge/Apache Airflow-abcdef?style=for-the-badge&logo=apache-airflow)
-![Static Badge](https://img.shields.io/badge/Apache Superset-abcdef?style=for-the-badge&logo=apache-superset)
+![Static Badge](https://img.shields.io/badge/Apache_Airflow-abcdef?style=for-the-badge&logo=apache-airflow)
+![Static Badge](https://img.shields.io/badge/Apache_Superset-abcdef?style=for-the-badge&logo=apache-superset)
 ## Supporting Tools
 ![Static Badge](https://img.shields.io/badge/SQLAlchemy-abcdef?style=for-the-badge&logo=sqlalchemy)
 ![Static Badge](https://img.shields.io/badge/Pydantic-abcdef?style=for-the-badge&logo=pydantic)
