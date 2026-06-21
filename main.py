@@ -157,9 +157,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
         for item in items:
             name = stack[item]["name"]
             logo = stack[item]["logo"]
-            url = f"![{item}](https://img.shields.io/badge/{name}-abcdef?style=for-the-badge&logo={logo})"
             url = f"![{item}](https://img.shields.io/badge/{name}-white?logo={logo})"
-            # url = f"![{item}](https://img.shields.io/badge/{name}-white?style=for-the-badge&logo={logo})"
             content += f"\n{url}"
 
     with output_md.open("a", encoding="utf-8") as output_file:
