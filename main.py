@@ -97,6 +97,18 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
             "type": "data visualization",
             "category": "Data & Analytics",
         },
+        "Matplotlib": {
+            "name": "Matplotlib",
+            "logo": "matplotlib",
+            "type": "data visualization",
+            "category": "Data & Analytics",
+        },
+        "Seaborn": {
+            "name": "Seaborn",
+            "logo": "seaborn",
+            "type": "data visualization",
+            "category": "Data & Analytics",
+        },
         "django": {
             "name": "Django",
             "logo": "django",
@@ -135,7 +147,7 @@ def create_stack_links(stack_md: Path, output_md: Path) -> None:
     stack1 = prepare_stack(stack)
 
     for skill_type, items in stack1.items():
-        content += f"\n## {skill_type}"
+        content += f"\n### {skill_type}"
         for item in items:
             name = stack[item]["name"]
             logo = stack[item]["logo"]
